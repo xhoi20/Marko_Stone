@@ -95,7 +95,7 @@ function App() {
       </nav>
 
       {/* Seksioni Hero */}
-      <section id="home" className="pt-24 pb-32 bg-gradient-to-b from-slate-50 to-white">
+      {/* <section id="home" className="pt-24 pb-32 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -105,14 +105,27 @@ function App() {
               <p className="text-xl text-gray-600">
                 Ndërtojmë shtëpi guri me cilësi të lartë, duke kombinuar traditën dhe modernitetin. Çdo gur vendoset me kujdes për të krijuar një shtëpi të bukur, të ngrohtë dhe të qëndrueshme për gjenerata.
               </p>
-              {/* <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-blue-700 text-white px-8 py-3 rounded-lg hover:bg-blue-800 transition font-medium">
-                  Merr një Ofertë
-                </button>
-                <button className="border-2 border-blue-700 text-blue-700 px-8 py-3 rounded-lg hover:bg-blue-50 transition font-medium">
-                  Shiko Projektet
-                </button>
-              </div> */}
+      */}
+      <section
+  id="home"
+  className="relative pt-24 pb-32 min-h-screen flex items-center"
+  style={{
+    backgroundImage: 'url(/images/Main.jpg)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }}
+>
+  {/* Overlay blur + errësim */}
+  <div className="absolute inset-0 bg-black/55 backdrop-blur-sm" />
+
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-2xl space-y-6">
+      <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+        Marko Stone Construction
+      </h1>
+      <p className="text-xl text-gray-200">
+        Ndërtojmë shtëpi guri me cilësi të lartë, duke kombinuar traditën dhe modernitetin. Çdo gur vendoset me kujdes për të krijuar një shtëpi të bukur, të ngrohtë dhe të qëndrueshme për gjenerata.
+      </p>
               <div className="flex flex-col sm:flex-row gap-4">
   <button
     onClick={() => {
@@ -131,14 +144,14 @@ function App() {
     Shiko Projektet
   </button>
 </div>
-            </div>
+            {/* </div>
             <div className="relative">
               <img
                 src="/images/Main.jpg"
                 alt="Ndërtim me gur"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
