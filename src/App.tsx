@@ -139,7 +139,7 @@ function App() {
     onClick={() => {
       document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
     }}
-    className="border-2 border-blue-700 text-blue-700 px-8 py-3 rounded-lg hover:bg-blue-50 transition font-medium"
+   className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white/20 transition font-medium"
   >
     Shiko Projektet
   </button>
