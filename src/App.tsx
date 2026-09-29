@@ -73,7 +73,7 @@ function App() {
 
   const stats = [
     { icon: Award, value: "15+", label: "Vite Eksperiencë" },
-    { icon: Building2, value: "200+", label: "Projekte të Përfunduara" },
+    { icon: Building2, value: "100+", label: "Projekte të Përfunduara" },
     { icon: Users, value: "100%", label: "Klientë të Kënaqur" },
   ];
 
@@ -420,7 +420,7 @@ function App() {
           </div>
 
           <div className="border-t border-stone-800 mt-8 pt-8 text-center text-sm">
-            <p>&copy; 2024 Marko Stone Group. Të gjitha të drejtat e rezervuara.</p>
+            <p>&copy;  Marko Stone Group. Të gjitha të drejtat e rezervuara.</p>
             <p className="mt-1 text-stone-500">Ndërtim Profesional me Gur & Muraturë</p>
           </div>
         </div>
