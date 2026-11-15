@@ -5,26 +5,57 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="GRdwHK-96r0Xr9h1ei-l07hNXEWSxRWEaL4CI4SWDZw" />
-    <title>Marko Stone - Punime dhe Ndërtim Guri Shqipëri</title>
-    <meta name="description" content="Ndërtim shtëpish guri, muraturë, punime themeli dhe restaurim profesional në Shqipëri. Kontaktoni Marko Stone Group." />
+
+    <!-- NDRYSHIM: titulli fillon me "Punime Guri" -->
+    <title>Punime Guri në Shqipëri | Marko Stone - Ndërtim Shtëpi Guri</title>
+
+    <!-- NDRYSHIM: përshkrimi përmban "punime guri", vendin dhe telefonin -->
+    <meta name="description" content="Punime guri profesionale në Shqipëri: ndërtim shtëpi guri, mure guri, muraturë, veshje me gur dhe restaurim. Marko Stone – Milot, Kurbin. Tel: +355 68 875 2703." />
     <meta name="keywords" content="punime guri, ndërtim guri, shtëpi guri, muraturë shqipëri, restaurim guri, punime themeli" />
-    
-    <link rel="canonical" href="https://punimeguri.netlify.app/" />
 
-<!-- Robots -->
-<meta name="robots" content="index, follow" />
+    <!-- NDRYSHIM: canonical tani tregon punimeguri.com (më parë punimeguri.netlify.app) -->
+    <link rel="canonical" href="https://punimeguri.com/" />
 
-<!-- Geo (për Shqipëri) -->
-<meta name="geo.region" content="AL" />
-<meta name="geo.country" content="Albania" /><meta name="author" content="Marko Stone Group" />
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
 
-    <meta property="og:title" content="Marko Stone - Punime Guri Shqipëri" />
-    <meta property="og:description" content="Ndërtim profesional me gur natyror në Shqipëri." />
-    <meta property="og:image" content="https://punimeguri.netlify.app/images/Main.jpg" />
-    <meta property="og:url" content="https://punimeguri.netlify.app" />
+    <!-- Geo (për Shqipëri) -->
+    <meta name="geo.region" content="AL" />
+    <meta name="geo.country" content="Albania" />
+    <meta name="author" content="Marko Stone Group" />
+
+    <!-- NDRYSHIM: të gjitha linket e mëposhtme tani janë me punimeguri.com -->
+    <meta property="og:title" content="Punime Guri në Shqipëri | Marko Stone" />
+    <meta property="og:description" content="Punime guri profesionale: shtëpi guri, mure guri, veshje me gur dhe restaurim në Shqipëri." />
+    <meta property="og:image" content="https://punimeguri.com/images/Main.jpg" />
+    <meta property="og:url" content="https://punimeguri.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sq_AL" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://punimeguri.netlify.app/images/Main.jpg" />
+    <meta name="twitter:image" content="https://punimeguri.com/images/Main.jpg" />
+
+    <!-- NDRYSHIM: të dhëna për biznesin, që Google ta kuptojë kush jeni dhe ku ndodheni -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Marko Stone",
+      "description": "Punime guri, ndërtim shtëpi guri, mure guri, veshje me gur dhe restaurim në Shqipëri.",
+      "url": "https://punimeguri.com/",
+      "telephone": "+355688752703",
+      "image": "https://punimeguri.com/images/Main.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Milot",
+        "addressRegion": "Lezhë",
+        "addressCountry": "AL"
+      },
+      "areaServed": "Shqipëri",
+      "hasMap": "https://maps.google.com/?cid=1545797180869027974",
+      "sameAs": ["https://www.instagram.com/marko_stone_group"]
+    }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,6 +63,14 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- NDRYSHIM: tekst që Google e lexon edhe pa JavaScript (vizitorët nuk e shohin) -->
+    <noscript>
+      <h1>Punime Guri në Shqipëri – Marko Stone</h1>
+      <p>Ndërtim shtëpi guri, mure guri, muraturë, veshje fasade me gur dhe restaurim i shtëpive të vjetra. Punojmë në Milot, Kurbin, Lezhë, Tiranë dhe në gjithë Shqipërinë.</p>
+      <p>Telefon: +355 68 875 2703</p>
+    </noscript>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

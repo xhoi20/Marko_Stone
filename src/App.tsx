@@ -174,17 +174,18 @@ function App() {
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-sm font-medium px-4 py-2 rounded-full mb-6 animate-fade-up">
               <span className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
-              Ndërtim Profesional me Gur në Shqipëri
+              Punime Guri & Ndërtim Shtëpish Guri në Shqipëri
             </span>
 
             <h1 className="font-display text-5xl md:text-7xl font-bold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-              Arti i Gurit,<br />
+              Punime Guri,<br />
               <span className="text-amber-400">Bukuria e Përhershme</span>
             </h1>
 
             <p className="text-lg md:text-xl text-stone-200 leading-relaxed mb-10 max-w-2xl animate-fade-up" style={{ animationDelay: '0.2s' }}>
-              Ndërtojmë shtëpi guri me cilësi të lartë, duke kombinuar traditën dhe modernitetin.
-              Çdo gur vendoset me kujdes për të krijuar një shtëpi të bukur, të ngrohtë dhe të qëndrueshme për gjenerata.
+              Marko Stone ofron punime guri profesionale: ndërtojmë shtëpi guri, mure guri dhe veshje me gur
+              me cilësi të lartë, duke kombinuar traditën dhe modernitetin. Çdo gur vendoset me kujdes për
+              një shtëpi të bukur, të ngrohtë dhe të qëndrueshme për gjenerata.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: '0.3s' }}>
@@ -276,9 +277,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="section-label">Çfarë Ofrojmë</span>
-            <h2 className="section-title mb-4">Shërbimet Tona</h2>
+            <h2 className="section-title mb-4">Shërbimet Tona të Punimeve me Gur</h2>
             <p className="text-xl text-stone-500 max-w-2xl mx-auto">
-              Zgjidhje të plota për ndërtim me gur — nga ideja deri te realizimi
+               Zgjidhje të plota për punime guri dhe ndërtim me gur — nga ideja deri te realizimi
             </p>
           </div>
 
@@ -310,7 +311,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="section-label">Portfolio</span>
-            <h2 className="section-title mb-4">Projektet e Fundit</h2>
+            <h2 className="section-title mb-4">Projektet Tona me Gur</h2>
             <p className="text-xl text-stone-500">Punët tona më të mira me gur natyror</p>
           </div>
 
@@ -376,18 +377,7 @@ function App() {
               <p className="text-stone-600">@marko_stone_group</p>
             </a>
 
-           {/*  <a
-              href="https://www.google.com/maps?q=Albania"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group bg-stone-50 p-8 rounded-2xl text-center card-hover border border-stone-100 hover:border-amber-200"
-            >
-              <div className="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-amber-600 transition-colors duration-300">
-                <MapPin className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors duration-300" />
-              </div>
-              <h3 className="font-display text-xl font-bold text-stone-900 mb-2">Vendndodhja</h3>
-              <p className="text-stone-600">Shqipëri</p>
-            </a> */}
+      
             <a href="https://maps.google.com/?cid=1545797180869027974"
   target="_blank"
   rel="noopener noreferrer"
