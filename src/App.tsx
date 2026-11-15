@@ -376,7 +376,7 @@ function App() {
               <p className="text-stone-600">@marko_stone_group</p>
             </a>
 
-            <a
+           {/*  <a
               href="https://www.google.com/maps?q=Albania"
               target="_blank"
               rel="noopener noreferrer"
@@ -387,7 +387,18 @@ function App() {
               </div>
               <h3 className="font-display text-xl font-bold text-stone-900 mb-2">Vendndodhja</h3>
               <p className="text-stone-600">Shqipëri</p>
-            </a>
+            </a> */}
+            <a href="https://maps.google.com/?cid=1545797180869027974"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group bg-stone-50 p-8 rounded-2xl text-center card-hover border border-stone-100 hover:border-amber-200"
+>
+  <div className="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-amber-600 transition-colors duration-300">
+    <MapPin className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors duration-300" />
+  </div>
+  <h3 className="font-display text-xl font-bold text-stone-900 mb-2">Vendndodhja</h3>
+  <p className="text-stone-600">Milot, Kurbin, Shqipëri</p>
+</a>
           </div>
         </div>
       </section>
