@@ -387,7 +387,7 @@ function App() {
     <MapPin className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors duration-300" />
   </div>
   <h3 className="font-display text-xl font-bold text-stone-900 mb-2">Vendndodhja</h3>
-  <p className="text-stone-600">Milot, Kurbin, Shqipëri</p>
+  <p className="text-stone-600">Laç, Kurbin, Shqipëri</p>
 </a>
           </div>
         </div>
