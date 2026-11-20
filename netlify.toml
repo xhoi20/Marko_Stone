@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://punimeguri.netlify.app/*"
+  to = "https://punimeguri.com/:splat"
+  status = 301
+  force = true
